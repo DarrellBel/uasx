@@ -1,0 +1,327 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00112c; /* Dark space blue */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .sidebar {
+    background-color: #00112c; /* Dark space blue */
+    color: #ffd700; /* Gold text */
+    background: url('screen-6.jpg') center center fixed;
+  }
+  
+  .logo img {
+    width: 40px; /* Set the width of your logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between logo and text */
+  }
+  
+  .logo span {
+    font-weight: bold; /* Make the text bold if needed */
+    font-size: 18px; /* Set the font size for the text */
+  }
+  
+  ul li a {
+    color: #ffffff; /* White text for links */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffd700; /* Gold */
+    margin: 10px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(19, 32, 50, 0.8); /* Dark blue-gray with transparency */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    position: relative; /* Required for positioning the background image */
+    background: url('d3897826816325780da6770a5d70d49c.jpg') center center fixed;
+  }
+  form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('screen-6.jpg') center center fixed; /* Replace 'your-galaxy-image.jpg' with your image path */
+    background-size: cover;
+    z-index: -1;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #356e96; /* Blue-gray */
+    border-radius: 4px;
+    background-color: #1f2d3f; /* Dark blue-gray */
+    color: #ffffff;
+  }
+  
+  button {
+    background-color: #35424a; /* Dark blue-gray */
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #23313d; /* Slightly darker blue-gray on hover */
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #356e96; /* Blue-gray */
+    color: #ffffff;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #23313d; /* Darker blue-gray for table headers */
+  }
+  
+  button.edit {
+    background-color: #ffc107; /* Yellow for edit button */
+    color: #333;
+  }
+  
+  button.edit:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+  }
+  
+  button.delete {
+    background-color: #d9534f; /* Red for delete button */
+    color: #ffffff;
+  }
+  
+  button.delete:hover {
+    background-color: #c9302c; /* Darker red on hover */
+  }
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+  
+  * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00132d; /* Deep space blue */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080d18; /* Dark galaxy purple */
+    color: #ffd700; /* Gold text */
+    padding: 10px;
+    margin-top: 60px; /* Sesuaikan dengan tinggi navbar */
+  }
+  
+  
+  .logo img {
+    width: 40px; /* Set the width of your logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between logo and text */
+  }
+  
+  .logo span {
+    font-weight: bold; /* Make the text bold if needed */
+    font-size: 18px; /* Set the font size for the text */
+  }
+  
+  
+  .logo {
+    background-color: rgba(19, 32, 50, 0.8);
+    text-align: center;
+    margin-top: -7px; /* Adjust the margin as needed */
+   
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  section {
+    margin-left: 250px;
+    padding: 15px;
+  }
+  
+  section h1 {
+    color: #ffffff; /* White */
+  }
+  
+  section p {
+    color: #cccccc; /* Light gray */
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .navbar {
+    position: flex;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #2c3e50;
+    padding: 1px;
+    text-align: center;
+    background: url('screen-6.jpg');
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 250px;
+    height: 100%;
+    margin-top: -5px;
+    margin-bottom: 100px;
+    background: #00132d; /* Deep space blue */
+    transition: all .5s ease;
+    background: url('3b736e5dd9f916dde2158bfae877f52c.jpg') center center fixed;
+  }
+  
+  .sidebar header {
+    font-size: 22px;
+    color: #ffd700; /* Gold */
+    line-height: 70px;
+    text-align: center;
+    background: #00132d; /* Deep space blue */
+    user-select: none;
+    background-color: rgba(19, 32, 50, 0.8);
+  }
+  
+  .sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #ffc107; 
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #001a3d; /* Darker deep space blue */
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    transition: .4s;
+  }
+  
+  ul li:hover a {
+    padding-left: 50px;
+    color: #356e96;
+  }
+  .sidebar ul a i {
+    margin-right: 16px;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  label #btn,
+  label #cancel {
+    position: absolute;
+    background: #001a3d; /* Darker deep space blue */
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  label #btn {
+    left: 250px;
+    top: 25px;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 6px 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s;
+  }
+  
+  label #cancel {
+    z-index: 1111;
+    left: 195px;
+    top: 17px;
+    font-size: 30px;
+    color: #ffd700; /* Gold */
+    padding: 4px 9px;
+    transition: all .5s ease;
+  }
+  
+  #check:checked~.sidebar {
+    left: -250px;
+  }
+  
+  #check:checked~label #btn {
+    left: 40px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  #check:checked~label #cancel {
+    left: -195px;
+  }
+  
+  #check:checked~section {
+    margin-left: 0px;
+  }
+  
+  section {
+    background: url(https://i.pinimg.com/originals/2f/02/ed/2f02ed8ec596d3ef69430116a3a68cbf.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+    margin-left: -250px;
+  }
+  
+  footer {
+    background-color: #00132d; /* Deep space blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

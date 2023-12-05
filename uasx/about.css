@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00132d; /* Deep space blue */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Tengahkan elemen .main-content */
+    text-align: center; /* Tengahkan teks */
+}
+
+.advantages {
+    text-align: left; /* Sesuaikan dengan kebutuhan desain */
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    max-width: 600px; /* Sesuaikan dengan kebutuhan Anda */
+    margin: 0 auto; /* Tengahkan teks */
+}
+
+footer {
+    background-color: #00132d; /* Deep space blue */
+    color: white;
+    text-align: center; /* Tengahkan teks di footer */
+    padding: 10px 20px; /* Sesuaikan dengan kebutuhan desain */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
